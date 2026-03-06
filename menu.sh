@@ -139,7 +139,7 @@ while true; do
   echo -e "  \e[35m[1]\e[0m ➤ Jalankan anomali-xl"
   echo -e "  \e[35m[2]\e[0m ➤ Jalankan me-cli"
   echo -e "  \e[35m[3]\e[0m ➤ Jalankan xldor"
-  echo -e "  \e[35m[4]\e[0m ➤ Jalankan dor8"
+  echo -e "  \e[35m[4]\e[0m ➤ Jalankan dorxl"
   echo -e "  \e[35m[5]\e[0m ➤ Jalankan reedem"
 
   EXCLUDE_SET=" anomali-xl me-cli xldor dor8 reedem "
@@ -168,7 +168,7 @@ while true; do
     1) run_or_clone "anomali-xl" "https://saus.gemail.ink/anomali/anomali-xl.git" ;;
     2) run_or_clone "me-cli" "https://github.com/purplemashu/me-cli.git" ;;
     3) run_or_clone "xldor" "https://github.com/baloenk/xldor.git" ;;
-    4) run_or_clone "dor8" "https://github.com/barbexid/dor8.git" ;;
+    4) run_or_clone "dorxl" "https://github.com/HzStoreXL/dorxl" ;;
     5) run_or_clone "reedem" "https://github.com/kejuashuejia/reedem.git" ;;
     a|A) add_new_repo ;;
     d|D) delete_repo ;;
