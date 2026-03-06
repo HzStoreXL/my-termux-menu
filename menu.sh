@@ -142,7 +142,7 @@ while true; do
   echo -e "  \e[35m[4]\e[0m ➤ Jalankan dorxl"
   echo -e "  \e[35m[5]\e[0m ➤ Jalankan reedem"
 
-  EXCLUDE_SET=" anomali-xl me-cli xldor dor8 reedem "
+  EXCLUDE_SET=" anomali-xl me-cli xldor dorxl reedem "
   DYN_NAMES=()
   n=6
   for dir in $(find "$HOME" -maxdepth 1 -mindepth 1 -type d -printf "%f\n" | sort); do
